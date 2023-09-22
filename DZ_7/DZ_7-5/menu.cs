@@ -8,6 +8,6 @@ namespace DZ_7_5
 {
     enum ShopMenu
     {
-        Start, Settings, About, Exit
+        Переглянути_оцінки, Заповнити_журнал, Середня_оцінка, Вихід 
     }
 }
