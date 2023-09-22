@@ -21,6 +21,7 @@ for (int i = 0; i < masivRandom2.Length; i++)
 
 
 
+
 int[] LongerMasiv=new int[(masivRandom.Length + masivRandom2.Length)];
 
 masivRandom.CopyTo(LongerMasiv, 0);

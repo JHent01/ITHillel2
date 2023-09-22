@@ -14,6 +14,7 @@ revers_a = int.Parse(revers_b.ToString().Reverse().ToArray());
 Console.WriteLine("Число з права на ліво:" + revers_a);
 Console.ReadLine();
 
+
 //Написати програму, яка обчислює квадрат будь-якого введеного числа.
 
 int step_a;
