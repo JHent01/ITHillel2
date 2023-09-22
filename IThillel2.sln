@@ -29,6 +29,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DZ_7-3", "DZ_7\DZ_7-3\DZ_7-
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DZ_7-4", "DZ_7\DZ_7-4\DZ_7-4.csproj", "{E533FCF7-B1D0-46A4-87AE-717CC4413C82}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DZ_7-5", "DZ_7\DZ_7-5\DZ_7-5.csproj", "{632706E6-31B8-443C-8960-729F8E86B835}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibleryMetod", "LibleryMetod\LibleryMetod.csproj", "{3A02947F-1A0B-422D-8C07-69949A469CDC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -87,6 +91,14 @@ Global
 		{E533FCF7-B1D0-46A4-87AE-717CC4413C82}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E533FCF7-B1D0-46A4-87AE-717CC4413C82}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E533FCF7-B1D0-46A4-87AE-717CC4413C82}.Release|Any CPU.Build.0 = Release|Any CPU
+		{632706E6-31B8-443C-8960-729F8E86B835}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{632706E6-31B8-443C-8960-729F8E86B835}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{632706E6-31B8-443C-8960-729F8E86B835}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{632706E6-31B8-443C-8960-729F8E86B835}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3A02947F-1A0B-422D-8C07-69949A469CDC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A02947F-1A0B-422D-8C07-69949A469CDC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A02947F-1A0B-422D-8C07-69949A469CDC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A02947F-1A0B-422D-8C07-69949A469CDC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
