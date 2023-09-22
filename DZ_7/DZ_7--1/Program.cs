@@ -10,18 +10,18 @@ for (int i = 0; i < masivRandom.Length; i++)
 }
 int sum = 0;
 
-for (int i= 2;  i < masivRandom.Length;i+=2)
+for (int i = 2; i < masivRandom.Length; i += 2)
 {
     sum += masivRandom[i];
 }
 
 PrintMass(masivRandom);
-Console.WriteLine("Сумма чисел на парних індексах = "+sum);
+Console.WriteLine("Сумма чисел на парних індексах = " + sum);
 void PrintMass(int[] longArray)
 {
     foreach (int i in longArray)
     {
-        Console.Write( i+", ");
+        Console.Write(i + ", ");
     }
 }
 
