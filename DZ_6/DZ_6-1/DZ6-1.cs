@@ -22,7 +22,7 @@
         longArray[i + 1] = randNumbers[i];
     }
 
-    longArray[longArray.Length - randNumbers.Length - 1] = a;
+    longArray[0] = a;
 
 
 

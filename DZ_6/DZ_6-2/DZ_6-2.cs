@@ -20,7 +20,7 @@ void PrintMassDoMissOne(int[] longArray)
     {
         if (i == -1)
         {
-            Console.WriteLine(i);
+            
 
             break;
         }
