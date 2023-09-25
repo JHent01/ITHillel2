@@ -3,9 +3,9 @@ using DZ_7_5;
 Console.OutputEncoding = System.Text.Encoding.Unicode;
 
 string[,] array = new string[3, 6] {
-       { "YYkkrr", "5", "4", "3", "", "" },
-        { "mmaahh", "5", "4", "3", "", "" },
-        { "aangg", "5", "4", "3", "", ""  } };
+       { "Укр Мова", "8", "7", "6", "", "" },
+        { "Математика", "8", "10", "10", "", "" },
+        { "Фізика", "        7", "10", "12", "", ""  } };
 int ser = 0,o;
 
 void PrintArray(string[,] array)
@@ -41,15 +41,33 @@ while (true)
             {
                 for(int j = 0; j<=array.GetUpperBound(1); j++ )
                 {
-                   
-                    if (array[i,j]=="")
+
+                    if (array[i, j] == "")
                     {
-                        array[i,j]=(Console.ReadLine());
-                        Console.Clear() ;
+
+                        array[i, j] = (Console.ReadLine());
+                        Console.Clear();
                         PrintArray(array);
 
-                        
+                        bool tryPurse;
+                        tryPurse = int.TryParse(array[i, j], out _);
+                        if (tryPurse == true)
+                        {
+                            int chec = int.Parse(array[i, j]);
+                            if (chec > 12 || chec<=0 )
+                            {
+                                Console.WriteLine("Такої цінти немає, введіть оцінку ще раз ");
+                                array[i, j] = (Console.ReadLine());
+                                Console.Clear() ;
+                               PrintArray(array);
+                                
+                            }
+                        }
+
                     }
+                    
+
+
                 }
             }
             for (int i = 0; i <= array.GetUpperBound(0); i++)
@@ -74,24 +92,26 @@ while (true)
             Console.Clear();
                 Console.WriteLine("Середня оцінка:");
             PrintArray(array);
-
+            bool tryParse ;
+            
             for (int i = 0 ; i<=array.GetUpperBound(0);i++)
             {
                 for (int j = 1;j<=array.GetUpperBound(1);j++ )
                 {
-                    bool tryParse;
+                    
                    
                     tryParse = int.TryParse(array[i,j], out int _);
 
 
                     if (tryParse == false)
                     {
+                       
                         Console.Clear();
                         Console.WriteLine("  Ви не заповнили журнал  ");
 
-                        Console.ReadKey();
                         
-                        break;
+
+                        
                        
                     }
                        
@@ -100,7 +120,7 @@ while (true)
                 }
             }
             o= ser/(array.Length-3);
-            Console.WriteLine("Середня оцінка: "+o) ;
+              Console.WriteLine("Середня оцінка: " + o); 
             ser = 0 ;
             o = 0;
                 break;
