@@ -111,6 +111,10 @@ class Program
         }
         while (conti=="Н?");
 
+
+
+        string a = adress.MyPropertyForStreet;
+        Console.ReadKey();
     }
 
 }
